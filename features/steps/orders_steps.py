@@ -27,7 +27,7 @@ from behave import given
 from compare import expect
 
 
-@given('the following pets')
+@given('the following orders')
 def step_impl(context):
     """ Delete all Orders and load new ones """
     # List all of the pets and delete them one by one
