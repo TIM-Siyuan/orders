@@ -10,5 +10,5 @@ Background:
 
 Scenario: The server is running
     When I visit the "Home Page"
-    Then I should see "Orders RESTful Service" in the title
+    Then I should see "Order REST API Service" in the title
     And I should not see "404 Not Found"
